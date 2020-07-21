@@ -13,4 +13,7 @@ def output_array(arr)
 end
 
 def return_string_array(arr)
-  
+  newarr = []
+  arr.each { |ele| newarr << ele.to_s}
+  newarr
+end
