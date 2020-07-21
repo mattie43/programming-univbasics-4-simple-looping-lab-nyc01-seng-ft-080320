@@ -8,3 +8,6 @@ def loop_message_n_times(msg, n)
   n.times { puts msg }
 end
 
+def output_array(arr)
+  arr.each { |str| 
+end
