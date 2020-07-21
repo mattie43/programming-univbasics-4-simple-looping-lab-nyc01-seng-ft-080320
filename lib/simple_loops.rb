@@ -9,5 +9,5 @@ def loop_message_n_times(msg, n)
 end
 
 def output_array(arr)
-  arr.each { |str| 
+  arr.each { |str| puts str }
 end
