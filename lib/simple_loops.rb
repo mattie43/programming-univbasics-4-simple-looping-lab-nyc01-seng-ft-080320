@@ -11,3 +11,6 @@ end
 def output_array(arr)
   arr.each { |str| puts str }
 end
+
+def return_string_array(arr)
+  
